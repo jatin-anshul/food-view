@@ -1,0 +1,20 @@
+:root{
+  --bg: #ffffff;
+  --card: #f7f7f8;
+  --text: #0f1720;
+  --muted: #6b7280;
+  --primary: #ff3b30;
+  --radius: 12px;
+  --shadow: 0 6px 20px rgba(15,23,32,0.06);
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg: #0b0f14;
+    --card: #0f1720;
+    --text: #e6eef6;
+    --muted: #9aa6b2;
+    --primary: #ff7b72;
+    --shadow: 0 6px 20px rgba(0,0,0,0.6);
+  }
+}
