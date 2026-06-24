@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import '../../styles/reels.css'
 import axios from 'axios'
 import BottomNav from '../../components/BottomNav'
+import SideNav from '../../components/SideNav'
 
 /* ─────────────── SVG Icons ─────────────── */
 const HeartIcon = ({ filled }) => (
@@ -295,6 +296,7 @@ const Home = () => {
 
   return (
     <div className="app-shell">
+      <SideNav />
       <div className="reels-container" ref={containerRef}>
         {videos.length === 0 && (
           <div className="reel-empty">No food reels yet. Check back soon!</div>

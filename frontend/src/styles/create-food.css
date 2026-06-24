@@ -172,6 +172,29 @@
 /* Responsive */
 @media (min-width: 768px) {
   .create-food-title { font-size: 1.6rem; }
+  .create-food-card { padding: var(--space-8); }
+}
+
+@media (min-width: 1024px) {
+  .create-food-page {
+    padding: var(--space-8) var(--space-6);
+    align-items: center;
+  }
+  .create-food-card {
+    padding: 40px 48px;
+  }
+  .create-food-title { font-size: 1.75rem; }
+
+  /* Two-column layout for name + description side by side */
+  .create-food-form-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-5);
+  }
+}
+
+@media (min-width: 1280px) {
+  .create-food-card { max-width: 800px; }
 }
 
 /* Smooth theme transitions */

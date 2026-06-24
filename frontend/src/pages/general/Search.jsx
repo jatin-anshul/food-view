@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import '../../styles/reels.css'
 import axios from 'axios'
 import BottomNav from '../../components/BottomNav'
+import SideNav from '../../components/SideNav'
 
 /* ── Icons ── */
 const SearchIcon = ({ active }) => (
@@ -113,6 +114,7 @@ const Search = () => {
 
   return (
     <div className="app-shell">
+      <SideNav />
       <div className="search-page">
 
         {/* search bar */}

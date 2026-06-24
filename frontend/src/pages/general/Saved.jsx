@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import '../../styles/reels.css'
 import axios from 'axios'
 import BottomNav from '../../components/BottomNav'
+import SideNav from '../../components/SideNav'
 
 /* ── Icons ── */
 const SavedEmptyIcon = () => (
@@ -95,6 +96,7 @@ const Saved = () => {
 
   return (
     <div className="app-shell">
+      <SideNav />
       <div className="saved-page">
         <h1>Saved</h1>
 

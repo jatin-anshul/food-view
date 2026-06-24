@@ -25,6 +25,7 @@ const Profile = () => {
 
   return (
     <main className="profile-page">
+      <div className="profile-inner">
       <section className="profile-header">
         <div className="profile-meta">
           <img
@@ -71,6 +72,7 @@ const Profile = () => {
           </article>
         ))}
       </section>
+      </div>
     </main>
   )
 }
