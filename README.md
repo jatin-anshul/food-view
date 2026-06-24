@@ -1,4 +1,4 @@
-# Zomato — Food Reel Platform
+# FoodView — Food Reel Platform
 
 A short-form video platform for food, built with a React frontend and a Node.js/Express backend. Food partners upload meal reels; users can scroll through them, like, save, comment, and search — all in a TikTok/Reels-style UI.
 
